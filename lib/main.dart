@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:http_restfullapi/pages/home_stwful.dart';
+import 'package:http_restfullapi/pages/home_stw_future.dart';
+// import 'package:http_restfullapi/pages/home_stwful.dart';
 
 void main() => runApp(const MyApp());
 
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Material App',
-      home: HomePageStateFull(),
+      home: HomePageStateLessFutureBuilder(),
     );
   }
 }
